@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wufan.calculator.DanweizhuanhuanActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spannerR"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_weight="1.6"
+            />
+        <EditText
+            android:id="@+id/editTextDanR"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2.6"
+            android:gravity="end|bottom"
+            android:textSize="50dp"
+            android:layout_gravity="bottom"
+            android:maxLines="1"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spannerP"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_weight="1.6"
+            />
+
+        <EditText
+            android:id="@+id/editTextDanP"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="2.6"
+            android:gravity="end|bottom"
+            android:textSize="50dp"
+            android:hint="0"
+            android:layout_gravity="bottom"
+            android:maxLines="1"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDanHou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="后退"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanQing"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="清除"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanChang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="长度"
+            android:textSize="20dip" />
+
+
+        <Button
+            android:id="@+id/buttonDanSu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="速度"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDan1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanShi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="时间"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDan4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="4"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="5"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="6"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanzhong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="重量"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDan7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="7"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="8"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="9"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanmian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="面积"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.16"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDanDian"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="."
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDan0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanFan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="返回"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/buttonDanDeng"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:textSize="20dip" />
+
+    </LinearLayout>
+
+</LinearLayout>
